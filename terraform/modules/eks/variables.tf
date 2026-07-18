@@ -3,7 +3,6 @@ variable "cluster_version" {
   type        = string
   default     = "1.34"
 }
-
 variable "vpc_id" {
   description = "VPC ID where the EKS cluster will be deployed"
   type        = string
